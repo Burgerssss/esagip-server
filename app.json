@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "LIKAS",
+    "slug": "likas",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/LIKAS.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/logo1.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000080"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.ligtas.likas"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e66a285d-8d70-4fb2-baec-367ed14e622d"
+      }
+    }
+  }
+}
