@@ -4,7 +4,9 @@ const http = require('http');
 const { Server } = require('socket.io');
 
 const app = express();
-const port = 3000;
+
+// Use dynamic port for cloud deployment, default to 3000 for local development
+const port = process.env.PORT || 3000;
 
 // In-memory storage
 let rescueRequests = [];
